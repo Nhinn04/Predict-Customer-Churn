@@ -1,10 +1,10 @@
-# 📊 Kaggle Playground Series s6e3 - Customer Churn Prediction
+# Kaggle Playground Series s6e3 - Customer Churn Prediction
 
 An end-to-end Machine Learning and Deep Learning pipeline for predicting customer churn, constructed for the **Kaggle Playground Series s6e3** competition.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository features a comprehensive data science workflow including Exploratory Data Analysis (EDA), advanced Feature Engineering (N-Gram text features, Target Encoding, Pseudo-Labeling), model exploration, and multi-model ensembling strategies.
 
