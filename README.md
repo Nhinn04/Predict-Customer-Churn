@@ -22,26 +22,19 @@ Customer churn is one of the costliest challenges for subscription-based busines
 
 ## 2. Project Pipeline
 ```mermaid
-flowchart TD
-    subgraph Dashboard ["End-to-End Analytics Workflow"]
-        direction LR
-        A["<b>1. Raw Data</b><br/>📥 Train & Test Sets"]:::card1
-        B["<b>2. EDA & Cleaning</b><br/>🧹 Missing Values & Insights"]:::card2
-        C["<b>3. Feature Eng.</b><br/>⚙️ Encodings & N-grams"]:::card2
-        D["<b>4. Modeling</b><br/>🤖 GBDTs & Deep Learning"]:::card3
-        E["<b>5. Evaluation</b><br/>📊 ROC-AUC: 0.919"]:::card4
+## 2. Project Pipeline
 
-        A --> B --> C --> D --> E
-    end
+<div align="center">
 
-    %% Tùy chỉnh phong cách thẻ (Card styling) sang trọng, gọn gàng
-    classDef card1 fill:#1e293b,stroke:#334155,stroke-width:2px,color:#f8fafc,rx:10,ry:10;
-    classDef card2 fill:#0f172a,stroke:#0284c7,stroke-width:2px,color:#38bdf8,rx:10,ry:10;
-    classDef card3 fill:#0f172a,stroke:#7c3aed,stroke-width:2px,color:#a78bfa,rx:10,ry:10;
-    classDef card4 fill:#0f172a,stroke:#16a34a,stroke-width:2px,color:#4ade80,rx:10,ry:10;
+| Step | Phase | Key Actions & Technologies |
+| :---: | :--- | :--- |
+| 📥 | **1. Raw Data** | Processing raw train and test datasets |
+| 🧹 | **2. Data Cleaning and EDA** | Handling missing values and extracting behavioral insights |
+| ⚙️ | **3. Feature Engineering** | Building custom encodings and N-gram string sequences |
+| 🤖 | **4. Modeling and Ensembling** | Benchmarking GBDTs and Deep Learning architectures |
+| 📊 | **5. Evaluation and Business Insights** | Achieving top-tier ROC-AUC score and deriving strategies |
 
-    %% Phong cách khung tổng thể Dark Mode của Dashboard
-    style Dashboard fill:#090d16,stroke:#1e293b,stroke-width:2px,rx:14,ry:14,color:#94a3b8;
+</div>
 ```
 
 ## 3. Key Exploratory Data Analysis (EDA) and Insights
