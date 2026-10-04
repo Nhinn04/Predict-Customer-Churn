@@ -1,0 +1,28 @@
+# Ignore raw & processed datasets (giữ thư mục rỗng)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Ignore model weights & intermediate files
+*.pkl
+*.pth
+*.h5
+*.json
+*.onnx
+*.bin
+
+# Ignore heavy output CSVs
+submissions/*.csv
+kaggle_outputs/
+local_scripts/models/
+local_scripts/logs/
+
+# Python & Environment Caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+venv/
+.venv/
+.DS_Store
