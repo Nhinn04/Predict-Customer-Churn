@@ -54,12 +54,4 @@ Predict-Customer-Churn/
 ├── docs/                    # Detailed reporting & documentation
 └── .gitignore               # Git ignore configuration
 ```
-## 5. Getting Started & Reproducibility
-Clone repository:
-   git clone [https://github.com/your-username/Predict-Customer-Churn.git](https://github.com/your-username/Predict-Customer-Churn.git)
-   cd Predict-Customer-Churn
-Install dependencies: pip install -r requirements.txt
-Run the workflow:
-Explore notebooks/eda/ first to review data visualizations and customer behavior reports.
-Execute scripts sequentially in notebooks/modeling/ to reproduce model training and validation results.
-   
+
