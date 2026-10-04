@@ -23,10 +23,15 @@ Customer churn is one of the costliest challenges for subscription-based busines
 ## 2. Project Pipeline
 ```mermaid
 graph LR
-    A[Raw Data] --> B[Data Cleaning and EDA]
-    B --> C[Feature Engineering]
-    C --> D[Model Training and Ensembling]
-    D --> E[Evaluation and Business Insights]
+    classDef raw fill:#f8fafc,stroke:#cbd5e1,stroke-width:2px,color:#334155;
+    classDef process fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0369a1;
+    classDef model fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#5b21b6;
+    classDef result fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#15803d;
+
+    A[Raw Data]:::raw --> B[Data Cleaning & EDA]:::process
+    B --> C[Feature Engineering]:::process
+    C --> D[Model Training & Ensembling]:::model
+    D --> E[Evaluation & Business Insights]:::result
 ```
 
 ## 3. Key Exploratory Data Analysis (EDA) and Insights
