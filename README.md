@@ -21,17 +21,18 @@ Customer churn is one of the costliest challenges for subscription-based busines
 ---
 
 ## 2. Project Pipeline
+## 2. Project Pipeline
 ```mermaid
 graph LR
-    classDef raw fill:#f8fafc,stroke:#cbd5e1,stroke-width:2px,color:#334155;
-    classDef process fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0369a1;
-    classDef model fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#5b21b6;
-    classDef result fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#15803d;
+    classDef raw fill:#f8fafc,stroke:#64748b,stroke-width:2px,color:#1e293b,rx:8,ry:8;
+    classDef process fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0369a1,rx:8,ry:8;
+    classDef model fill:#ede9fe,stroke:#7c3aed,stroke-width:2px,color:#5b21b6,rx:8,ry:8;
+    classDef result fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#15803d,rx:8,ry:8;
 
-    A[Raw Data]:::raw --> B[Data Cleaning & EDA]:::process
+    A[Raw Data]:::raw --> B[Data Cleaning and EDA]:::process
     B --> C[Feature Engineering]:::process
-    C --> D[Model Training & Ensembling]:::model
-    D --> E[Evaluation & Business Insights]:::result
+    C --> D[Model Training and Ensembling]:::model
+    D --> E[Evaluation and Business Insights]:::result
 ```
 
 ## 3. Key Exploratory Data Analysis (EDA) and Insights
