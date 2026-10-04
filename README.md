@@ -21,9 +21,6 @@ Customer churn is one of the costliest challenges for subscription-based busines
 ---
 
 ## 2. Project Pipeline
-```mermaid
-## 2. Project Pipeline
-
 <div align="center">
 
 | Step | Phase | Key Actions & Technologies |
@@ -35,7 +32,6 @@ Customer churn is one of the costliest challenges for subscription-based busines
 | 📊 | **5. Evaluation and Business Insights** | Achieving top-tier ROC-AUC score and deriving strategies |
 
 </div>
-```
 
 ## 3. Key Exploratory Data Analysis (EDA) and Insights
 Derived from exploratory analysis workflows (notebooks/eda/):
