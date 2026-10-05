@@ -64,9 +64,4 @@ Predict-Customer-Churn/
 ├── docs/                    # Detailed reporting and documentation
 └── .gitignore               # Git ignore configuration
 ```
-## 6. Getting Started
-- Clone the repository
-git clone [https://github.com/Nhinn04/Predict-Customer-Churn.git](https://github.com/Nhinn04/Predict-Customer-Churn.git)
-cd Predict-Customer-Churn
-- Install dependencies
-pip install -r requirements.txt
+
